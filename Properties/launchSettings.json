@@ -19,7 +19,7 @@
       }
     },
     "Docker": {
-      "commandName": "Docker",
+      "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
