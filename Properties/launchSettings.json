@@ -19,7 +19,7 @@
       }
     },
     "Docker": {
-      "commandName": "Docker",
+      "commandName": "IIS",
       "launchBrowser": true,
       "launchUrl": "https://testrail-production-1e19.up.railway.app:80",
       "publishAllPorts": true,
