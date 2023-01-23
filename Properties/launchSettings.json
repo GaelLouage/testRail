@@ -1,29 +1,38 @@
 {
   "profiles": {
-    "Production": {
+    "testRailways": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "https://testrail-production-1e19.up.railway.app",
+      "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Production"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": true
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7207;http://localhost:5154"
     },
-    "Development": {
+    "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "Docker": {
-      "commandName": "Project",
+      "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "https://testrail-production-1e19.up.railway.app",
+      "launchUrl": "https://testrail-production-1e19.up.railway.app:3000",
       "publishAllPorts": true,
       "useSSL": true
     }
   },
-  "$schema": "https://json.schemastore.org/launchsettings.json"
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:26940",
+      "sslPort": 44306
+    }
+  }
 }
