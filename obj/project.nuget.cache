@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "22TDkyA1w5gsxsnOwWHUyJAUIkA2KUn4nnMQMd8i1WRDIxiK8/L6xcuG56Dbgy13d/T+nyROB6kCUZLGNyUk+g==",
+  "dgSpecHash": "gTL8Ez9d2gjCSkkArfHxsiHMa4aDT+dD7f5FT1Z6YK97cOMZVVPB8goD+MkNxYY/rCNjdgL/CK/HfJF4VGI3hQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\louagga\\source\\repos\\WeScrapperPdf\\testRailways\\testRailways.csproj",
+  "projectFilePath": "C:\\Users\\louagga\\source\\repos\\testRailways\\testRailways.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\louagga\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\louagga\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\louagga\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\louagga\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\louagga\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\louagga\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
