@@ -21,7 +21,7 @@
     "Docker": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "launchUrl": "https://testrail-production-1e19.up.railway.app:3000",
       "publishAllPorts": true,
       "useSSL": true
     }
