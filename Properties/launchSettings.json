@@ -21,7 +21,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "https://testrail-production-1e19.up.railway.app:3000",
+      "launchUrl": "https://testrail-production-1e19.up.railway.app:80",
       "publishAllPorts": true,
       "useSSL": true
     }
