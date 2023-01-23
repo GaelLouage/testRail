@@ -19,9 +19,9 @@
       }
     },
     "Docker": {
-      "commandName": "IIS",
+      "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "https://testrail-production-1e19.up.railway.app",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
       "useSSL": true
     }
