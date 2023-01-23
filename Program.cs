@@ -15,7 +15,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+if (!app.Environment.IsDevelopment())
+{
+    builder.WebHost.UseUrls("http://*:80", "https://*.443");
+}
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
